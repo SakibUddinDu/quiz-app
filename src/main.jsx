@@ -17,10 +17,6 @@ const router = createBrowserRouter([
       { path: "/", element: <Home /> },
       { path: "/blog", element: <Blog /> },
       { path: "quiz/:quizId", element: <Quiz /> , loader: ({params})=>fetch(`https://openapi.programming-hero.com/api/quiz/${params.quizId}`)},
-      // { path: '/about', element: <About /> },
-      // loader: ({ params }) =>
-      // fetch(`https://api.itbook.store/1.0/books/${params.id}`),
-  // },
     ],
   },
 ]);

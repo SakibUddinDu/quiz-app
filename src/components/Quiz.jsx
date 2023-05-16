@@ -1,49 +1,123 @@
-// eslint-disable-next-line no-unused-vars
-import React from "react";
+/* eslint-disable no-unused-vars */
+import React, { useState } from "react";
 import { useLoaderData } from "react-router-dom";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Quiz = () => {
   const quizes = useLoaderData([]);
   const quizData = quizes.data.questions;
 
-  console.log(quizes.data);
+  // State to store the selected option for each question
+  const [selectedOptions, setSelectedOptions] = useState({});
+  const [showModal, setShowModal] = useState(false);
+
+  const handleOptionChange = (questionIndex, optionIndex) => {
+    setSelectedOptions((prevOptions) => ({
+      ...prevOptions,
+      [questionIndex]: optionIndex,
+    }));
+
+    const selectedOption = quizData[questionIndex].options[optionIndex];
+    const correctAnswer = quizData[questionIndex].correctAnswer;
+
+    if (selectedOption === correctAnswer) {
+      toast.success(`Correct Answer: ${correctAnswer}`);
+    } else {
+      toast.error("Wrong answer!");
+    }
+    // return correctAnswer;
+  };
+
   return (
-    <section className="py-6 bg-accent">
-      <div className="mx-auto max-w-7xl px-5 lg:px-0">
-        <div className="mb-8">
-          <p className="text-sm text-slate-200">
-            Each question contains 5 Mark
-          </p>
-        </div>
-        <div className="space-y-8 ">
-          <div className="quiz">
-            {quizData.map((quiz) => (
-             <>
-              <h1 className="text-2xl font-bold">{quiz.question}</h1>
-              <form className="quizOptions">
-              {quiz.options.map((OPTION) => <><label className="flex items-center">
-                  <input
-                    type="checkbox"
-                    id="option1_q1"
-                    className="mr-2 form-checkbox"
-                  />
-                  <span className="text-xl">
-                   {OPTION}
-                  </span>
-                </label></>
-              )}
-            </form>
-             </>
-            ))}
-           
+    <>
+      <section className="py-6 bg-accent p-12">
+        <div className="mx-auto max-w-7xl px-5 lg:px-0">
+          {/* ... */}
+          <div className="space-y-8 p-4">
+            <div className="quiz mt-8 p-8">
+              {quizData.map((quiz, index) => (
+                <>
+                  <div className="flex justify-between">
+                    <h1 className="text-2xl font-bold">
+                      {" "}
+                      {index + 1}) {quiz.question} {quiz.correctAnswer}
+                    </h1>
+                    <label
+                      htmlFor="my-modal-3"
+                      className="btn"
+                      onClick={() => setShowModal(true)}
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="w-6 h-6"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"
+                        />
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                        />
+                      </svg>
+                    </label>
+                  </div>
+
+                  <form className="quizOptions">
+                    {quiz.options.map((option, optionIndex) => (
+                      // eslint-disable-next-line react/jsx-key
+                      <div className="border border-slate-950 p-6 rounded-md mt-3">
+                        <label className="flex items-center">
+                          <input
+                            type="radio"
+                            id={optionIndex}
+                            name={`question_${index}`}
+                            className="mr-2 form-checkbox"
+                            checked={selectedOptions[index] === optionIndex}
+                            onChange={() =>
+                              handleOptionChange(index, optionIndex)
+                            }
+                          />
+                          <span className="text-xl">{option}</span>
+                        </label>
+                      </div>
+                    ))}
+                  </form>
+                </>
+              ))}
+            </div>
           </div>
         </div>
+        <ToastContainer />
 
-        <button className="px-4 py-2 rounded-full bg-cyan block ml-auto mt-8 hover:opacity-90 active:opacity-100 active:scale-95 ">
-          Submit
-        </button>
-      </div>
-    </section>
+        {/*==========modal =======*/}
+        {showModal && (
+          <>
+          <input type="checkbox" id="my-modal-3" className="modal-toggle" />
+          <div className="modal">
+            <div className="modal-box relative">
+              <label
+                htmlFor="my-modal-3"
+                className="btn btn-sm btn-circle absolute right-2 top-2"
+              >
+                ✕
+              </label>
+              <h3 className="text-lg font-bold">Correct Answer: </h3>
+            </div>
+          </div>
+          </>
+        )}
+
+       
+      </section>
+    </>
   );
 };
 

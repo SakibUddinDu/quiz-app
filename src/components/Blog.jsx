@@ -1,11 +1,74 @@
-import React from 'react';
+import React from "react";
 
 const Blog = () => {
-    return (
-        <div>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente accusamus vel quas odio, consectetur esse. Dolorum quam possimus cumque repellat, totam quibusdam commodi labore ullam sit. Sunt consectetur libero ratione quaerat fuga assumenda laudantium delectus! Odio, perferendis. Iusto suscipit deserunt qui enim repellat nemo, a ullam est voluptate beatae facere? Laboriosam sint debitis beatae! Error vero vitae nisi debitis. Perspiciatis, maiores. Saepe illum sit eaque tempore esse molestias impedit quis, in quo totam beatae officia dolore eius laudantium fuga ipsa facilis, nostrum est, ratione iusto. Aliquid a tempora asperiores maxime cum voluptate ducimus nam sequi cupiditate facere ipsam voluptatum, consectetur molestias ipsa totam optio, assumenda odit. Unde incidunt nam omnis vel quibusdam? Officiis maiores, veritatis similique atque recusandae adipisci placeat et sint ea voluptatum officia laboriosam odit cupiditate neque, dolores a tempora quidem tenetur facilis laborum. Magnam ab, adipisci, culpa explicabo distinctio expedita iure magni veritatis exercitationem in temporibus sint. Recusandae facere ipsam omnis facilis. Alias illo tempore consequuntur. Modi, in perferendis? Nemo quam nam iste iusto, incidunt sit nesciunt ratione ex quos cupiditate amet! Facere deserunt praesentium ullam! Laborum dolore dolorum aspernatur id minima exercitationem temporibus facilis ipsum. Quisquam aperiam iure dolorem accusamus nulla, adipisci esse fuga nobis sequi accusantium ratione aliquid minima numquam minus autem labore illo, sint pariatur earum optio exercitationem eveniet a! Labore sint iste aut blanditiis vitae earum itaque dolorum delectus eum harum quod laboriosam illum incidunt, hic ex laborum a. Cupiditate suscipit doloremque voluptates consequuntur vel maiores doloribus sed tenetur facilis deserunt, iure explicabo id? Deleniti repudiandae dolorem, aliquam modi veritatis fugit non delectus vero ex accusantium. Voluptatum nulla consequatur nihil, cumque et, animi natus dolore velit doloribus repellat ad illum vitae ut nesciunt repudiandae, blanditiis delectus placeat quam fuga facilis quia praesentium. Saepe fugiat numquam suscipit a exercitationem? Nisi totam nulla quae obcaecati maiores fugit id error consequuntur soluta ad eaque repellendus fugiat, laudantium atque? Culpa voluptates tenetur quisquam consequuntur distinctio tempora reiciendis a consequatur voluptatem dignissimos, omnis ullam, vel nam rem fugit dicta temporibus? Repudiandae dolorem possimus quas quibusdam? Veritatis nobis, possimus illum sed, impedit repudiandae voluptatem deserunt corporis tempore rem, deleniti sunt quo dolorum ratione minus debitis. Neque ducimus voluptate facere esse quas maiores in suscipit, vero fuga? Repudiandae nam veritatis error dicta in totam! Voluptas ratione molestiae repellat adipisci eligendi tenetur magni, dolores deserunt beatae nam hic excepturi autem at magnam vero ducimus quaerat eius atque libero similique aliquid veritatis. Quas nobis assumenda illo minus sapiente, omnis magnam explicabo, autem quidem possimus porro illum, obcaecati molestiae voluptatum ipsa similique? Voluptate expedita cumque velit minima dolore laborum! Qui fugit dolorem unde aliquid, praesentium adipisci eum nobis tempore quia vel assumenda illum asperiores provident aspernatur? Error cupiditate et inventore. Fuga nihil, voluptatibus amet, at quas magnam corporis adipisci quisquam ad asperiores ipsa ut vero consequuntur dolorum doloremque quos saepe, ducimus ullam neque odit. Est placeat odit, deleniti laborum facilis voluptate soluta maxime reprehenderit sit sequi sunt aliquid. Ab enim incidunt sequi et earum deserunt repudiandae assumenda esse temporibus? Nesciunt sequi est laudantium possimus, dolor eveniet, quia tenetur consequatur eos iste doloremque debitis magni? Cumque repellendus laudantium, autem culpa unde soluta ut recusandae amet possimus consectetur beatae ab fugiat ad placeat temporibus incidunt earum minima ducimus! Velit expedita eaque, tempore totam numquam ullam. Officiis nostrum quisquam quas cumque sunt, hic eaque nesciunt quis? Pariatur reprehenderit minus porro dicta rerum velit. Modi fuga repellendus, ratione ipsam itaque nulla adipisci voluptate mollitia illum quidem ea, deserunt dolorum aliquid dignissimos maiores? Voluptates exercitationem nostrum nam fugiat nesciunt architecto obcaecati recusandae voluptatibus, magnam id voluptas hic alias nihil sequi delectus quia ipsa, doloremque consectetur sunt accusamus dolorem. Adipisci, laboriosam error. Excepturi sapiente praesentium ducimus eius aspernatur, tempora a, minus natus vitae vero laborum aut molestias optio officiis recusandae eum iure repellendus. Aliquam autem perferendis reprehenderit eius recusandae, consequuntur ipsam, similique dolorum laborum sit quos vero iusto molestiae alias dolore quibusdam eligendi aut modi inventore culpa quisquam! Excepturi eum nulla non tenetur, iure consectetur quibusdam et, consequuntur eos, similique nesciunt consequatur fugit cupiditate modi maiores a! Unde, dicta eaque commodi voluptates sapiente consectetur voluptas voluptatum nesciunt adipisci molestias voluptatibus quo quidem ullam beatae expedita suscipit aliquid delectus, possimus porro obcaecati ducimus optio modi? In porro animi id similique quia minima est at perferendis doloremque, aliquid repellendus reprehenderit nulla hic voluptate velit molestias? Alias ad illum voluptas aliquid, autem optio. Similique iure numquam, amet soluta accusantium nam iusto mollitia dolorem beatae sint ea ipsum quisquam repellat suscipit libero hic praesentium eum blanditiis, minima doloremque veniam reiciendis, repudiandae necessitatibus facere? In laboriosam tempore itaque distinctio, recusandae iure officia. Fugit praesentium ut animi error officiis, maiores qui a soluta omnis? Dolores, distinctio expedita. Reiciendis vel quaerat tenetur sit sunt ad inventore, impedit omnis incidunt non quia ex, consequatur eius voluptates voluptatum. Ad amet error nemo nihil repellat, accusamus dolores rem earum, laudantium sunt cupiditate repellendus sit possimus corporis commodi nulla cumque deleniti ut saepe porro ab quibusdam. Sunt cupiditate iste corrupti! Placeat minima in facere alias non architecto provident tenetur. Nobis praesentium corporis atque, rem libero officiis sit perspiciatis similique nulla dolorem a, unde dignissimos cupiditate voluptas deleniti. Similique quos nemo totam perferendis porro dolores iste consectetur dolor nihil architecto earum reprehenderit eligendi repellat ut, praesentium vero laudantium? Eveniet provident sapiente ad ducimus velit dolore quibusdam, culpa nam saepe corrupti ratione placeat maiores dignissimos quas mollitia adipisci corporis voluptatem perferendis voluptatum dolores soluta repellendus qui, quae cumque! Maiores dicta quos doloribus distinctio aliquam dolor repellat ipsam unde provident tempore eum libero voluptatibus odit blanditiis minima, maxime nobis animi quae voluptatem tenetur! At praesentium voluptatem quisquam animi ab unde, voluptatibus sed quia dolorem, fugiat iste molestias optio expedita minima! Dignissimos vero eveniet et perspiciatis iusto similique cum ullam sapiente reprehenderit numquam cumque omnis culpa, maxime deleniti cupiditate nisi repellendus itaque quas delectus, in consequuntur? Porro cumque eius iusto illo labore. At dolorem exercitationem blanditiis labore numquam ipsam reiciendis laboriosam mollitia quibusdam itaque maiores illum quaerat et culpa sed temporibus nesciunt rem delectus error sunt eligendi alias cupiditate, adipisci expedita. Nostrum, harum alias.</p> 
-        </div>
-    );
+  return (
+    <div className="bg-accent p-12">
+      <div className="p-8">
+        <h1 className="text-4xl">what is the purpose of react router dom? .</h1>
+        <p>
+          The purpose of React Router DOM is to provide routing capabilities to
+          React applications. It allows you to create multiple pages or views
+          within a single-page application (SPA) and handle navigation between
+          them. React Router DOM enables developers to define routes, render
+          specific components based on the current URL, and manage browser
+          history
+        </p>
+      </div>
+      <div className="p-8">
+        <h1 className="text-4xl">How does Context api works? .</h1>
+        <p>
+          The Context API in React provides a way to share data between
+          components without passing props through each level of the component
+          tree. Here's how it works:
+          <ol type="1">
+            <li>
+              Create a Context: Use the createContext() function to create a new
+              context. This returns an object with two components: a Provider
+              and a Consumer. Set up a Provider: Wrap the components that need
+              access to the shared data with the Provider component. The
+              Provider component accepts a value prop, which can be any
+              JavaScript value or object.
+            </li>
+            <li>
+              Consume the Context: To access the shared data within a component,
+              use the Consumer component or the useContext() hook. The Consumer
+              component renders a function as its child, allowing you to access
+              the context value. The useContext() hook can be used within
+              functional components to retrieve the context value.
+            </li>
+            <li>
+              Update the Context: To update the context value, you need to
+              modify the value within the Provider component. Any component that
+              consumes the context will automatically re-render when the context
+              value changes. By using the Context API, you can avoid prop
+              drilling and make it easier to manage and share state or other
+              data across multiple components in your React application.
+            </li>
+          </ol>
+        </p>
+      </div>
+      <div className="p-8">
+        <h1 className="text-4xl">useRef() hook in react </h1>
+        <p>
+          The useRef() hook in React is used to create a mutable reference that
+          persists across re-renders of a component. It returns a mutable ref
+          object that can hold a value. Here&apos;s how useRef() works: 
+          Create a Ref:
+          Call the useRef() hook and assign the result to a variable. For
+          example: const myRef = useRef(); Attach the Ref to an Element: In JSX,
+          you can assign the ref property of an element to the ref object
+          created with useRef(). 
+          Access the Ref&apos;s Value: To access the value stored in the ref, you can
+          use myRef.current. For example: console.log(myRef.current.value); The
+          useRef() hook is often used to store references to DOM elements or to
+          store any mutable value that needs to persist across re-renders. It&apos;s
+          important to note that changing the ref.current value doesn&apos;t trigger
+          a re-render of the component, making it suitable for storing mutable
+          data that doesn&apos;t affect the component&apos;s rendering.
+        </p>
+      </div>
+    </div>
+  );
 };
 
 export default Blog;
