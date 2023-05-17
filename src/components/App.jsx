@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
-import Courses from "./Courses";
 import Nav from "./Nav";
+import Footer from './Footer';
 function App() {
   return (
     <>
@@ -8,6 +8,8 @@ function App() {
       <div className="md:min-h-[calc(100vh-341px)]">
         <Outlet />
       </div>
+      <Footer></Footer>
+
      
     </>
   );
